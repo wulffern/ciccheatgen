@@ -1,9 +1,71 @@
-
-
-"Schematic:":
-  "Moving:":
-    - "Shift-Z:  Zoom in"
-    - "Ctrl-Z :  Zoom out"
-
-"Symbol:":
-    - "Shift-A:  Add instance labels"
+title: AIC Cheat Sheet
+content:
+  "":
+    - If errors are found, contact carstenw@ntnu.no
+  "*nix":
+    - running programs in background; <command> &
+    - listing files ; ls -l
+    - change directory ; cd <directory>
+    - change to home dir; cd
+    - change to last directory ; cd -
+    - finding help on a command ; man <command>
+    - text editor ; emacs
+    - alternative text editor ; vim
+    - noob text editor ; nano
+  "Candence programs":
+    - main program ; virtuoso
+    - running ade-xl/assembler scripts ; ocean
+    - running SPICE simulations ; spectre
+    - starting skill reference help ; cdsFinder
+  "Schematic Editor":
+    - zoom in ; ctrl-z
+    - zoom out ; shift-z
+    - place instance ; i
+    - edit properties ; q
+    - descend read-only into selected instance ; e
+    - descend edit into selected instance ;  shift-e
+    - edit in place ; x
+    - return to previous level ; ctrl-e
+    - undo ; u
+    - check and save ; shift-x
+    - delete selected object ; delete
+    - copy selected objects ; c
+    - draw a wire ; w
+    - add a pin ; p
+    - add a label ; l
+    - move instance ; m
+    - move instance without rerouting wires ; shift-m
+    - rotate object ; r
+    - mirror object ; shift-r
+    - flip object ; ctrl-j
+    - add wires to selected symbol; space
+    -
+    -
+  "Symbol Editor ":
+    - add instance labels ; shift-a
+  "Layout Editor":
+    - zoom in ; ctrl-z
+    - zoom out ; shit-z
+    - zoom to a specific area; right-click, drag
+    - fit ; f
+    - see hierarchy contents ; shift-f
+    - hide hirearchy contents ; ctrl-f
+    - stretch path/rectangle ; s
+    - move ; m
+    - copy ; c
+    - undo ; u
+    - select all ; ctrl-a
+    - deselect all; F1 or ctrl-d
+    - show properties ; q
+    - create ruler ; k
+    - delete all rulers; shift-k
+    - descend into a cell; shift-x
+    - return from a cell; shift-b
+    - create via ; o
+    - chop a rectangle ; shift + c
+    - toggle gravity ; g
+  "Assembler":
+    - write a skill script to ../../ocn ; shift-s
+    - load am outputs csv file from ../../csv
+    - with the name <cell>_<view>.csv
+    - i.e tb_sun_bias_maestro.csv ; shift-r
