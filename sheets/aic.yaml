@@ -32,14 +32,15 @@ content:
     - copy selected objects ; c
     - draw a wire ; w
     - add a pin ; p
-    - add a label ; l
+    - add a label ;   l
     - move instance ; m
     - move instance without rerouting wires ; shift-m
     - rotate object ; r
     - mirror object ; shift-r
     - flip object ; ctrl-j
     - add wires to selected symbol; space
-    -
+    - properties ; f3
+    - deselect someting ; o
     -
   "Symbol Editor ":
     - add instance labels ; shift-a
@@ -64,8 +65,25 @@ content:
     - create via ; o
     - chop a rectangle ; shift + c
     - toggle gravity ; g
+    - properties ; f3
+    - create rectangle ; r
   "Assembler":
     - write a skill script to ../../ocn ; shift-s
     - load am outputs csv file from ../../csv
     - with the name <cell>_<view>.csv
     - i.e tb_sun_bias_maestro.csv ; shift-r
+  "Python":
+    - install packages  ; pip3 install <p>
+    - install packages when the pip is not there ; python3 -m pip install <p>
+    - install packages with edit ; pip3 install -e <p>
+    - install packages without root ; pip3 install --user <p>
+    - plotting, graphs ; matplotlib.pyplot
+    - pretty plotting ; seaborn
+    - read/write data files (csv, json, html) ; pandas
+    - maths; numpy
+    - tikz plotting; tikzplot
+    - read/write yaml ; yaml
+    -
+  "Python (cont.)":
+    - read/write json ; json
+    - command line arguments/options ; click
